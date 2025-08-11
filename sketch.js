@@ -2,14 +2,15 @@ var d;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(235,50,222);}
+  background(235,50,222);
+}
 
 function draw() {
   d=random(10,60)
   
   colorMode(HSB,360,100,100);
   fill(random(0,360),100,100);
-  ellipse(mouseX,mouseY,d,d)
+  ellipse(mouseX,mouseY,d,d);
 }
 
 function keyPressed() {
