@@ -13,3 +13,5 @@ function draw() {
 function keyPressed() {
   if (key === 'p') {
     save('dibujo.jpg');
+      }
+}
